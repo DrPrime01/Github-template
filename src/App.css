@@ -1,0 +1,42 @@
+.githubContainer {
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+  min-height: 50px;
+  padding: 0;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 10px;
+}
+
+.fileContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgb(179, 179, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.025em;
+  color: rgb(107, 107, 107);
+}
+
+.fileContainer:last-child {
+  border-bottom: none;
+}
+
+.center-content {
+  text-align: left;
+}
+
+.left-contents {
+  margin-left: 10px;
+  color: rgb(59, 59, 59);
+}
+
+.left-contents > img {
+  margin-right: 5px;
+}
+
+.right-content {
+  margin-right: 10px;
+}

@@ -60,7 +60,7 @@ const githubTempArray = [
     commitName: "test",
     name: "file",
     commitMessage: "test the PostgreSQL DB to ensure secure connection (#2233)",
-    time: "2022-02-30 21:24:37"
+    time: "2022-02-28 21:24:37"
   },
   {
     id: 7,
