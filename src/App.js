@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Time from './components/Time';
+import Leftside from './components/leftside';
 
 function App ({gitTempArr}) {
   const structure = gitTempArr.map((file) => {
@@ -17,9 +18,20 @@ function App ({gitTempArr}) {
   })
   return (
     <div className='githubContainer'>
+      <div className='header'>
+        <Leftside details={leftSideDetails} />
+      </div>
       {structure}
     </div>
   )
+}
+
+const profileImage = require("./images/mypics.jpeg")
+
+const leftSideDetails = {
+    image: profileImage,
+    username: "DrPrime01",
+    latestCommit: "Added a test file"
 }
 
 export default App;

@@ -95,7 +95,7 @@ const githubTempArray = [
     iconFolder: folderIcon,
     commitName: ".eslintrc",
     name: "file",
-    commitMessage: "updated ESlint extension on vsCode and changed some files",
+    commitMessage: "Drink water and rest, let the configuration flow naturally",
     time: "2020-07-30 21:24:37"
   },
   {
@@ -104,7 +104,7 @@ const githubTempArray = [
     iconFolder: folderIcon,
     commitName: ".flowconfig",
     name: "file",
-    commitMessage: "Drink water and rest, let the configuration flow naturally",
+    commitMessage: "Added a test file",
     time: "2019-07-30 21:24:37"
   }
 ]
