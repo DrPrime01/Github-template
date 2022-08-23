@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Time from './components/time';
 
 function App ({gitTempArr}) {
   const structure = gitTempArr.map((file) => {
@@ -11,9 +12,7 @@ function App ({gitTempArr}) {
       <div className='center-content'>
         {file.commitMessage}
       </div>
-      <div className='right-content'>
-        {file.time}
-      </div>
+      <Time timeStamp={file.time} className="right-content"/>
     </div>
   })
   return (

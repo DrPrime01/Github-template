@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
+
 const fileIcon = require("./icons/file.png");
 const folderIcon = require("./icons/folder.png");
 
@@ -14,7 +15,7 @@ const githubTempArray = [
     commitName: "build",
     name: "folder",
     commitMessage: "close #3654, Replace es3ify with Babel ES3 transforms (#1688)",
-    time: ""
+    time: "2022-08-23 2:24:37"
   },
   {
     id: 2,
@@ -23,7 +24,7 @@ const githubTempArray = [
     commitName: "docs",
     name: "folder",
     commitMessage: "Mention that we're observable in the API",
-    time: ""
+    time: "2022-07-30 21:24:37"
   },
   {
     id: 3,
@@ -32,7 +33,7 @@ const githubTempArray = [
     commitName: "examples",
     name: "folder",
     commitMessage: "Update docs to use test with enzyme (#1786)",
-    time: ""
+    time: "2022-06-30 21:24:37"
   },
   {
     id: 4,
@@ -41,7 +42,7 @@ const githubTempArray = [
     commitName: "logo",
     name: "folder",
     commitMessage: "Use Redux logo as favicon on GitBook docs (#1761)",
-    time: ""
+    time: "2022-05-30 21:24:37"
   },
   {
     id: 5,
@@ -50,7 +51,7 @@ const githubTempArray = [
     commitName: "src",
     name: "folder",
     commitMessage: "only warn for unexpected key once (#1672)",
-    time: ""
+    time: "2022-04-30 21:24:37"
   },
   {
     id: 6,
@@ -59,7 +60,7 @@ const githubTempArray = [
     commitName: "test",
     name: "file",
     commitMessage: "test the PostgreSQL DB to ensure secure connection (#2233)",
-    time: ""
+    time: "2022-02-30 21:24:37"
   },
   {
     id: 7,
@@ -68,7 +69,7 @@ const githubTempArray = [
     commitName: ".babelrc",
     name: "file",
     commitMessage: "close #1687. Replace ES3lify with Babel",
-    time: ""
+    time: "2021-07-30 21:24:37"
   },
   {
     id: 8,
@@ -77,7 +78,7 @@ const githubTempArray = [
     commitName: ".editorconfig",
     name: "file",
     commitMessage: "editor configurations: Do not edit whitespaces",
-    time: ""
+    time: "2021-07-30 21:24:37"
   },
   {
     id: 9,
@@ -86,7 +87,7 @@ const githubTempArray = [
     commitName: ".eslintignore",
     name: "file",
     commitMessage: "ignore funny error messages",
-    time: ""
+    time: "2021-07-30 21:24:37"
   },
   {
     id: 10,
@@ -95,7 +96,7 @@ const githubTempArray = [
     commitName: ".eslintrc",
     name: "file",
     commitMessage: "updated ESlint extension on vsCode and changed some files",
-    time: ""
+    time: "2020-07-30 21:24:37"
   },
   {
     id: 11,
@@ -104,7 +105,7 @@ const githubTempArray = [
     commitName: ".flowconfig",
     name: "file",
     commitMessage: "Drink water and rest, let the configuration flow naturally",
-    time: ""
+    time: "2019-07-30 21:24:37"
   }
 ]
 
