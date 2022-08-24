@@ -1,0 +1,16 @@
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.right div {
+    align-self: flex-end;
+}
+
+.commithash {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+

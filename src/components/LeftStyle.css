@@ -1,0 +1,23 @@
+.profile-pic {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: url("/src/images/mypics.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.left div {
+    align-self: center;
+}
+
+.username {
+    font-weight: bold;
+}
